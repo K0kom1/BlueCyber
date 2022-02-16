@@ -15,7 +15,7 @@
     if(isset($_POST["submit"])){
         $task = $_POST['task'];
         mysqli_query($conn, "INSERT INTO tb_task value ('','$task')");
-        header('Location index.php');
+        header('Location: index.php');
     }
     $tasks = mysqli_query($conn, "SELECT * FROM tb_task");
     // delate task
