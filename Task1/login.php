@@ -43,7 +43,7 @@ if(isset($_POST["submit"])){
     
                 <div class="form_signin">
                     <label class="lable_form_signin" for="password">Password</label>
-                    <input class="input_form_signin" type="password" name="password" id="password" required placeholder="Passwork">
+                    <input class="input_form_signin" type="password" name="password" id="password" required placeholder="Password">
                 </div>
                 <div class="btn">
                     <button type="submit" name="submit" class="btn-signin">Sign in</button>
