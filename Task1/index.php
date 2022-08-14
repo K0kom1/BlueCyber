@@ -3,6 +3,7 @@
 
     if (!empty($_SESSION["id"])){
         $id = $_SESSION["id"];
+        echo $id;
         $result = mysqli_query($conn, "SELECT * FROM tb_user WHERE id = $id");
         $row = mysqli_fetch_assoc($result);
         

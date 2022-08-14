@@ -23,6 +23,7 @@ if(isset($_POST["submit"])){
         }
     }
 }
+else echo '1';
 ?>
 <!DOCTYPE html>
 <html lang="en">

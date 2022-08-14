@@ -17,6 +17,7 @@ if(isset($_POST["submit"])){
         echo "<script> alert('Username,Email or Password not Registered'); </script>";
     }
 }
+else echo 2;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +39,7 @@ if(isset($_POST["submit"])){
                 <hr class="hr" >
                 <div class="form_signin">
                     <label class="lable_form_signin" for="usernameemail">Username or Email</label>
-                    <input class="input_form_signin" type="text" name="usernameemail" id="usernameemail" required placeholder="Username or Email">
+                    <input class="input_form_signin" type="text" name="usernameemail" id="usernameemaill" required placeholder="Username or Email">
                 </div>
     
                 <div class="form_signin">
@@ -46,7 +47,7 @@ if(isset($_POST["submit"])){
                     <input class="input_form_signin" type="password" name="password" id="password" required placeholder="Password">
                 </div>
                 <div class="btn">
-                    <button type="submit" name="submit" class="btn-signin">Sign in</button>
+                    <button type="submit" name="submittt" class="btn-signin">Sign in</button>
                 </div>
                 <div class="Forgot_password">
                     <!-- <a class="Link_Fortgot--password" href="">Quên mật khẩu</a> -->
